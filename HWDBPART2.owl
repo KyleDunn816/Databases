@@ -1,0 +1,627 @@
+<?xml version="1.0"?>
+
+
+<!DOCTYPE Ontology [
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY xml "http://www.w3.org/XML/1998/namespace" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+]>
+
+
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/dunnkyle/ontologies/2024/11/untitled-ontology-3"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     ontologyIRI="http://www.semanticweb.org/dunnkyle/ontologies/2024/11/untitled-ontology-3">
+    <Prefix name="" IRI="http://www.semanticweb.org/dunnkyle/ontologies/2024/11/untitled-ontology-3#"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Declaration>
+        <Class IRI="#Asian"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Burger"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Burger_Done_Right"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Burger_King"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Chipolote"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#City"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Customer"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DinnerMenu"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Dish"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Dish_name"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Food_category"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Hoboken"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Indian"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#IsVegetarian"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Italian"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Joy_H"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#LunchMenu"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Menu"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Name"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Newark"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#People"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Person"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Person_name"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Pizza"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Pizza_Dominne"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Preferences"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Price"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ResFood_catergory"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Resaurant_Name"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Restaurant_City"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Resturant"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Resturants_bus"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#So_Good"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#South_Orange"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Sushi_Place"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Veg?"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#breakfastMenu"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Belongs_to"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Has_Dish"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Likes"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Located_in"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#On_Menu"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Prefers"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Serves"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Visits"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#friends_with"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Asian"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Barry"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Burger"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Burger_King"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Burgers_Done_Right"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Chipolte"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Duncan"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Hoboken"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Indian"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Italian"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Joy_H"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Lewis"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Newark"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Pizza"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Pizza_Dominne"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Simon"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#So_Good"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#South_Orange"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Sushi_Place"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Asian"/>
+        <Class IRI="#ResFood_catergory"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Burger"/>
+        <Class IRI="#ResFood_catergory"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Burger_Done_Right"/>
+        <Class IRI="#Resturants_bus"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Burger_King"/>
+        <Class IRI="#Resturants_bus"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Chipolote"/>
+        <Class IRI="#Resturants_bus"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DinnerMenu"/>
+        <Class IRI="#Menu"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Dish_name"/>
+        <Class IRI="#Dish"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Hoboken"/>
+        <Class IRI="#City"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Indian"/>
+        <Class IRI="#ResFood_catergory"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#IsVegetarian"/>
+        <Class IRI="#Resturant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Italian"/>
+        <Class IRI="#ResFood_catergory"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Joy_H"/>
+        <Class IRI="#Resturants_bus"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#LunchMenu"/>
+        <Class IRI="#Menu"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Name"/>
+        <Class IRI="#Food_category"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Newark"/>
+        <Class IRI="#City"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Person_name"/>
+        <Class IRI="#Person"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Pizza"/>
+        <Class IRI="#ResFood_catergory"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Pizza_Dominne"/>
+        <Class IRI="#Resturants_bus"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Preferences"/>
+        <Class IRI="#Person"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Price"/>
+        <Class IRI="#Dish"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Resaurant_Name"/>
+        <Class IRI="#Resturant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Restaurant_City"/>
+        <Class IRI="#Resturant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#So_Good"/>
+        <Class IRI="#Resturants_bus"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#South_Orange"/>
+        <Class IRI="#City"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Sushi_Place"/>
+        <Class IRI="#Resturants_bus"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Veg?"/>
+        <Class IRI="#Dish"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#breakfastMenu"/>
+        <Class IRI="#Menu"/>
+    </SubClassOf>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Serves"/>
+        <NamedIndividual IRI="#Asian"/>
+        <NamedIndividual IRI="#Asian"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Likes"/>
+        <NamedIndividual IRI="#Barry"/>
+        <NamedIndividual IRI="#Burgers_Done_Right"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Likes"/>
+        <NamedIndividual IRI="#Barry"/>
+        <NamedIndividual IRI="#Burger_King"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Likes"/>
+        <NamedIndividual IRI="#Barry"/>
+        <NamedIndividual IRI="#Sushi_Place"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Likes"/>
+        <NamedIndividual IRI="#Barry"/>
+        <NamedIndividual IRI="#Indian"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Prefers"/>
+        <NamedIndividual IRI="#Barry"/>
+        <NamedIndividual IRI="#Chipolte"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#friends_with"/>
+        <NamedIndividual IRI="#Barry"/>
+        <NamedIndividual IRI="#Lewis"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#friends_with"/>
+        <NamedIndividual IRI="#Barry"/>
+        <NamedIndividual IRI="#Simon"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Belongs_to"/>
+        <NamedIndividual IRI="#Burger"/>
+        <NamedIndividual IRI="#Burger_King"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Belongs_to"/>
+        <NamedIndividual IRI="#Burger"/>
+        <NamedIndividual IRI="#Burgers_Done_Right"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Located_in"/>
+        <NamedIndividual IRI="#Burger_King"/>
+        <NamedIndividual IRI="#Hoboken"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Located_in"/>
+        <NamedIndividual IRI="#Burgers_Done_Right"/>
+        <NamedIndividual IRI="#Hoboken"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Belongs_to"/>
+        <NamedIndividual IRI="#Chipolte"/>
+        <NamedIndividual IRI="#Indian"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Located_in"/>
+        <NamedIndividual IRI="#Chipolte"/>
+        <NamedIndividual IRI="#South_Orange"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Likes"/>
+        <NamedIndividual IRI="#Duncan"/>
+        <NamedIndividual IRI="#Joy_H"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Likes"/>
+        <NamedIndividual IRI="#Duncan"/>
+        <NamedIndividual IRI="#Sushi_Place"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Likes"/>
+        <NamedIndividual IRI="#Duncan"/>
+        <NamedIndividual IRI="#So_Good"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Likes"/>
+        <NamedIndividual IRI="#Duncan"/>
+        <NamedIndividual IRI="#Indian"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Prefers"/>
+        <NamedIndividual IRI="#Duncan"/>
+        <NamedIndividual IRI="#Chipolte"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#friends_with"/>
+        <NamedIndividual IRI="#Duncan"/>
+        <NamedIndividual IRI="#Simon"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#friends_with"/>
+        <NamedIndividual IRI="#Duncan"/>
+        <NamedIndividual IRI="#Lewis"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Belongs_to"/>
+        <NamedIndividual IRI="#Joy_H"/>
+        <NamedIndividual IRI="#Pizza"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Belongs_to"/>
+        <NamedIndividual IRI="#Joy_H"/>
+        <NamedIndividual IRI="#Italian"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Located_in"/>
+        <NamedIndividual IRI="#Joy_H"/>
+        <NamedIndividual IRI="#Hoboken"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Likes"/>
+        <NamedIndividual IRI="#Lewis"/>
+        <NamedIndividual IRI="#Indian"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Likes"/>
+        <NamedIndividual IRI="#Lewis"/>
+        <NamedIndividual IRI="#Joy_H"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Likes"/>
+        <NamedIndividual IRI="#Lewis"/>
+        <NamedIndividual IRI="#Burger_King"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Prefers"/>
+        <NamedIndividual IRI="#Lewis"/>
+        <NamedIndividual IRI="#Chipolte"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#friends_with"/>
+        <NamedIndividual IRI="#Lewis"/>
+        <NamedIndividual IRI="#Simon"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Belongs_to"/>
+        <NamedIndividual IRI="#Pizza_Dominne"/>
+        <NamedIndividual IRI="#Pizza"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Belongs_to"/>
+        <NamedIndividual IRI="#Pizza_Dominne"/>
+        <NamedIndividual IRI="#Italian"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Located_in"/>
+        <NamedIndividual IRI="#Pizza_Dominne"/>
+        <NamedIndividual IRI="#South_Orange"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Likes"/>
+        <NamedIndividual IRI="#Simon"/>
+        <NamedIndividual IRI="#Burger_King"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Likes"/>
+        <NamedIndividual IRI="#Simon"/>
+        <NamedIndividual IRI="#Burgers_Done_Right"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Likes"/>
+        <NamedIndividual IRI="#Simon"/>
+        <NamedIndividual IRI="#Indian"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Prefers"/>
+        <NamedIndividual IRI="#Simon"/>
+        <NamedIndividual IRI="#Chipolte"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Prefers"/>
+        <NamedIndividual IRI="#Simon"/>
+        <NamedIndividual IRI="#Burger"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#friends_with"/>
+        <NamedIndividual IRI="#Simon"/>
+        <NamedIndividual IRI="#Barry"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#friends_with"/>
+        <NamedIndividual IRI="#Simon"/>
+        <NamedIndividual IRI="#Lewis"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#friends_with"/>
+        <NamedIndividual IRI="#Simon"/>
+        <NamedIndividual IRI="#Duncan"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Located_in"/>
+        <NamedIndividual IRI="#So_Good"/>
+        <NamedIndividual IRI="#Newark"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Belongs_to"/>
+        <NamedIndividual IRI="#Sushi_Place"/>
+        <NamedIndividual IRI="#Asian"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Located_in"/>
+        <NamedIndividual IRI="#Sushi_Place"/>
+        <NamedIndividual IRI="#Newark"/>
+    </ObjectPropertyAssertion>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#Belongs_to"/>
+        <ObjectProperty IRI="#Prefers"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#Has_Dish"/>
+        <ObjectProperty IRI="#On_Menu"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#Likes"/>
+        <ObjectProperty IRI="#Located_in"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#Located_in"/>
+        <ObjectProperty IRI="#friends_with"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#On_Menu"/>
+        <ObjectProperty IRI="#Serves"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#Prefers"/>
+        <ObjectProperty IRI="#Visits"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#Serves"/>
+        <ObjectProperty IRI="#Belongs_to"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#friends_with"/>
+        <ObjectProperty IRI="#Has_Dish"/>
+    </SubObjectPropertyOf>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Belongs_to"/>
+        <Class IRI="#Food_category"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Has_Dish"/>
+        <Class IRI="#Food_category"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#On_Menu"/>
+        <Class IRI="#Menu"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Prefers"/>
+        <Class IRI="#Person"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Serves"/>
+        <Class IRI="#Resturant"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Visits"/>
+        <Class IRI="#Person"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Belongs_to"/>
+        <Class IRI="#Resturant"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Has_Dish"/>
+        <Class IRI="#Dish"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#On_Menu"/>
+        <Class IRI="#Food_category"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Prefers"/>
+        <Class IRI="#Food_category"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Serves"/>
+        <Class IRI="#Menu"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Visits"/>
+        <Class IRI="#Resturant"/>
+    </ObjectPropertyRange>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 3.4.2) http://owlapi.sourceforge.net -->
+
